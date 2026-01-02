@@ -362,3 +362,22 @@ footer {
   width: 200px !important;  /* force width */
   height: auto !important;   /* keep aspect ratio */
 }
+/* Force logo to resize and center properly */
+.brand-logo {
+  max-width: none !important; /* remove any max-width limits */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo img {
+  width: 180px !important;  /* desired logo width */
+  height: auto !important;
+  display: block;            /* ensures no inline spacing issues */
+}
+
+/* Optional: override header flex issues */
+.top-header, .brand {
+  align-items: center !important;
+  justify-content: center !important;
+  }
