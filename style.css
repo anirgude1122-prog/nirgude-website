@@ -37,7 +37,7 @@ body {
 }
 
 .brand-logo img {
-  height: 200px; /* big professional logo */
+  height: 400px; /* big professional logo */
   width: auto;
   display: block;
 }
@@ -364,7 +364,7 @@ footer {
   }
 
   .brand-logo img {
-    height: 140px; /* smaller logo on mobile */
+    height: 240px; /* smaller logo on mobile */
   }
 
   .service-box img, .trust-box img, .registration-box img {
