@@ -400,7 +400,7 @@ footer {
 /* Logo */
 .brand-logo img {
   width: auto !important;   /* keep aspect ratio */
-  height: 280px !important; /* adjust size as needed */
+  height: 480px !important; /* adjust size as needed */
   max-width: none !important;
   display: block;
   margin: auto;
