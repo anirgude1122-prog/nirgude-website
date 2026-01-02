@@ -18,30 +18,30 @@ body {
   gap: 15px;                /* spacing between logo, name, button */
 }
 
-/* Brand section */
+/* Brand */
 .brand {
   display: flex;
+  flex-direction: column;   /* logo above text */
   align-items: center;
-  gap: 15px;
-  max-width: 75%;
+  gap: 10px;
 }
 
 .brand img {
-  height: 220px;
+  height: 120px;   /* increase if needed */
   width: auto;
 }
 
 .brand-text h1 {
   margin: 0;
   font-size: 22px;
-  color: #003366;  /* Light blue */
+  color: #4da6ff;
   line-height: 1.2;
 }
 
 .brand-text p {
   margin: 4px 0 0;
   font-size: 14px;
-  color: #4da6ff;
+  color: #003366;
 }
 
 /* Contact button */
