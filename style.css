@@ -381,3 +381,18 @@ footer {
   align-items: center !important;
   justify-content: center !important;
   }
+/* === FORCE LOGO SIZE - FINAL OVERRIDE === */
+.brand-logo {
+  width: auto !important;
+  max-width: none !important;
+}
+
+.brand-logo img {
+  width: 220px !important;   /* increase to 250px if you want */
+  max-width: none !important;
+  height: auto !important;
+}
+header,
+.top-header {
+  min-height: 120px !important;
+}
