@@ -21,10 +21,6 @@ body {
   gap: 15px;
 }
 
-.brand img {
-  height: 400px;
-  width: auto;
-}
 
 .brand-text h1 {
   margin: 0;
@@ -362,3 +358,7 @@ footer {
   font-weight: bold;
   color: #003366;
     }
+.brand-logo img {
+  width: 200px !important;  /* force width */
+  height: auto !important;   /* keep aspect ratio */
+}
