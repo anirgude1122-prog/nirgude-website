@@ -12,10 +12,10 @@ body {
   background: #ffffff;
   padding: 15px 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;   /* stack items vertically */
+  align-items: center;      /* center everything horizontally */
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  flex-wrap: wrap;
+  gap: 15px;                /* spacing between logo, name, button */
 }
 
 /* Brand section */
@@ -42,6 +42,12 @@ body {
   margin: 4px 0 0;
   font-size: 14px;
   color: #4da6ff;
+}
+
+/* Contact button */
+.contact-btn {
+  display: inline-block;
+  text-align: center;
 }
 /* Navigation */
 nav a {
@@ -120,7 +126,5 @@ footer {
     max-width: 100%;
   }
 
-  .btn {
-    align-self: flex-start;
-  }
-  }
+  
+
