@@ -453,7 +453,7 @@ header,
 }
 
 .brand-logo {
-  width: 220px;   /* CHANGE SIZE HERE */
+  width: 420px;   /* CHANGE SIZE HERE */
   height: auto;
   display: block;
 }
@@ -476,6 +476,6 @@ header,
   }
 
   .brand-logo {
-    width: 140px;
+    width: 220px;
   }
     }
