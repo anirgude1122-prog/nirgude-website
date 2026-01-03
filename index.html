@@ -185,7 +185,10 @@ We deliver comprehensive financial solutions tailored to help you build wealth, 
       </div>
     </div>
 
-  
+    <div class="funds-subheading">Types of Funds</div>
+
+    <!-- Funds Accordion -->
+  <div class="accordion">
 
     <!-- Equity Funds -->
     <div class="accordion-item">
@@ -434,6 +437,25 @@ document.querySelectorAll('.accordion-header').forEach(header => {
     });
   });
   </script>
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach(header => {
+  header.addEventListener('click', () => {
+    const accordionItem = header.parentElement;
+
+    // Toggle current
+    accordionItem.classList.toggle('active');
+
+    // Close others
+    const allItems = accordionItem.parentElement.querySelectorAll('.accordion-item');
+    allItems.forEach(item => {
+      if(item !== accordionItem){
+        item.classList.remove('active');
+      }
+    });
+  });
+});
+  
 </body>
         </html>
             
