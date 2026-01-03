@@ -580,6 +580,30 @@ footer {
     max-width: 360px;
     margin: 0 auto;        /* 🔑 force center */
   }
+  /* ===== SERVICE CARD CONTENT ALIGNMENT FIX ===== */
+
+#services .service-box {
+  text-align: center; /* center icon + heading */
+}
+
+/* Center the icons */
+#services .service-box img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* Keep bullet points readable & centered visually */
+#services .service-box ul {
+  text-align: left;          /* professional readability */
+  display: inline-block;    /* allows centering block */
+  margin: 0 auto;           /* centers the list */
+  padding-left: 20px;       /* proper bullet spacing */
+}
+
+/* Optional: slightly bigger icon (premium feel) */
+#services .service-box img {
+  width: 90px;
+}
 
     }
   
