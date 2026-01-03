@@ -877,7 +877,20 @@ button,
   font-style: italic;
   color: #4da6ff;
   }
-  
+  .highlight-sip {
+  border: 2px solid #f4c430;
+  background: linear-gradient(135deg, #fffbe6, #ffffff);
+  }
+  .funds-hero-card {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.funds-hero-card img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  }
 
     
   
