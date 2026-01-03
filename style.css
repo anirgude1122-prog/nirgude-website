@@ -1132,6 +1132,71 @@ button,
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
+  /* Highlight SIP Section */
+.highlight-sip {
+  border: 2px solid #f4c430;
+  background: linear-gradient(135deg, #fffbe6, #ffffff);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+/* Accordion Styling */
+.accordion {
+  max-width: 900px;
+  margin: auto;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 18px 22px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background: linear-gradient(135deg, #f0f8ff, #ffffff);
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.accordion-header:hover {
+  background: linear-gradient(135deg, #fffbe6, #ffffff);
+  transform: translateY(-2px);
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px 25px;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #222;
+  background: #fdfdfd;
+  border-top: 1px solid #eee;
+  border-radius: 0 0 12px 12px;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.funds-quote {
+  margin-top: 25px;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  color: #004080;
+  background: linear-gradient(135deg, #f0f8ff, #ffffff);
+  padding: 18px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
 
     
   
