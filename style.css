@@ -679,6 +679,16 @@ button,
   margin: 22px auto 0;
   border-radius: 2px;
   }
+  .services-intro {
+    text-align: center;          /* center the text */
+    font-size: 18px;             /* professional size */
+    font-weight: 500;            /* medium weight */
+    color: #1a1a1a;             /* dark text for clarity */
+    line-height: 1.6;           /* spacing for readability */
+    max-width: 700px;           /* limits width on large screens */
+    margin: 0 auto 30px auto;   /* center and add bottom spacing */
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;  /* modern clean font */
+  }
 
     }
   
