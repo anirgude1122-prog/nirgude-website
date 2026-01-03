@@ -308,6 +308,23 @@ function showNextTestimonial() {
 // Change testimonial every 5 seconds
 setInterval(showNextTestimonial, 5000);
 </script>
+  <script>
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach(header => {
+  header.addEventListener('click', function() {
+    const item = this.parentElement;
+
+    // Close other items
+    document.querySelectorAll('.accordion-item').forEach(i => {
+      if(i !== item) i.classList.remove('active');
+    });
+
+    // Toggle current
+    item.classList.toggle('active');
+  });
+});
+  </script>
 </body>
         </html>
             
