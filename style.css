@@ -1376,6 +1376,83 @@ button,
     opacity: 1;
     transform: translateY(0);
   }
+  /* ===============================
+   FORCE FUNDS SECTION STYLING
+   =============================== */
+
+section#funds {
+  background: linear-gradient(180deg, #ffffff, #f7faff) !important;
+  padding: 80px 20px !important;
+}
+
+section#funds h2 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  color: #003366 !important;
+  margin-bottom: 10px !important;
+}
+
+section#funds .funds-subtitle {
+  font-size: 17px !important;
+  color: #555 !important;
+  margin-bottom: 45px !important;
+}
+
+/* TYPES OF FUNDS HEADING */
+section#funds .funds-subheading,
+section#funds h3.funds-subheading {
+  margin: 60px 0 35px 0 !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  color: #003366 !important;
+  padding-left: 18px !important;
+  border-left: 6px solid #f4c430 !important;
+}
+
+/* ACCORDION CARDS */
+section#funds .accordion-item {
+  background: #ffffff !important;
+  border-radius: 14px !important;
+  box-shadow: 0 12px 28px rgba(0, 51, 102, 0.12) !important;
+  margin-bottom: 18px !important;
+  border: none !important;
+}
+
+section#funds .accordion-header {
+  background: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+section#funds .accordion-item.active .accordion-header {
+  background: #fffbe6 !important;
+  border-left: 6px solid #f4c430 !important;
+}
+
+/* CONTENT ANIMATION */
+section#funds .accordion-content {
+  animation: fundsFade 0.35s ease !important;
+}
+
+@keyframes fundsFade {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* QUOTE */
+section#funds .funds-quote {
+  margin-top: 60px !important;
+  font-size: 18px !important;
+  font-style: italic !important;
+  text-align: center !important;
+  color: #444 !important;
+  }
   }
   }
 
