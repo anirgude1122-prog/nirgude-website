@@ -529,5 +529,19 @@ footer {
     max-width: 100%;
     width: 100%;
   }
+  /* Center Services Heading */
+#services h2 {
+  text-align: center;
+}
+  /* Equal height service boxes */
+.service-container {
+  align-items: stretch;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   }
+  
   
