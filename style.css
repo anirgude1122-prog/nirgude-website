@@ -655,6 +655,30 @@ button,
 .btn {
   font-weight: 600;
   }
+  /* Our Services intro text styling */
+.services-intro {
+  max-width: 900px;
+  margin: 12px auto 36px;
+  padding: 0 16px;
+  text-align: center;
+
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 500;
+  color: #1f2937;
+
+  position: relative;
+}
+
+.services-intro::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #0b5ed7, #1e88e5);
+  margin: 22px auto 0;
+  border-radius: 2px;
+  }
 
     }
   
